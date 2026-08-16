@@ -1,0 +1,6 @@
+category_id,category_name,asset_class
+1,Large Cap,Equity
+2,Mid Cap,Equity
+3,Small Cap,Equity
+4,Multi Cap,Equity
+5,Corporate Bond,Debt
