@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Wealth Management Analytics — 3D Data Pipeline</title>
+<desc id="desc">An isometric neon dashboard showing financial data moving from source files through Databricks and Delta Lake into Data Marts, Power BI, REST APIs and AI reports.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080D1B"/><stop offset=".55" stop-color="#111B36"/><stop offset="1" stop-color="#24103F"/></linearGradient>
+  <linearGradient id="top1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#4F46E5"/></linearGradient>
+  <linearGradient id="top2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06B6D4"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+  <linearGradient id="top3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EC4899"/><stop offset="1" stop-color="#9333EA"/></linearGradient>
+  <linearGradient id="side" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#182746"/><stop offset="1" stop-color="#0A1226"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7C8DB5" stroke-opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="700" rx="28" fill="url(#bg)"/><rect width="1200" height="700" rx="28" fill="url(#grid)"/>
+<circle cx="1030" cy="100" r="130" fill="#7C3AED" opacity=".10"/><circle cx="150" cy="600" r="150" fill="#06B6D4" opacity=".08"/>
+<text x="60" y="70" fill="#A5B4FC" font-family="Arial,sans-serif" font-size="15" letter-spacing="4">END-TO-END DATA PLATFORM</text>
+<text x="60" y="116" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="35" font-weight="700">WEALTH MANAGEMENT ANALYTICS</text>
+<text x="60" y="148" fill="#A8B5D4" font-family="Arial,sans-serif" font-size="17">Raw financial data → engineered pipelines → decision-ready intelligence</text>
+<!-- connector paths -->
+<g fill="none" stroke="#7DD3FC" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 8" filter="url(#glow)" opacity=".9">
+<path d="M230 300 L310 300"/><path d="M480 300 L560 300"/><path d="M730 300 L810 300"/><path d="M900 390 L900 455"/>
+</g>
+<g fill="#67E8F9"><path d="M302 292l12 8-12 8z"/><path d="M552 292l12 8-12 8z"/><path d="M802 292l12 8-12 8z"/><path d="M892 447l8 12 8-12z"/></g>
+<!-- Source block -->
+<g transform="translate(65 235)">
+<polygon points="0,45 82,0 164,45 82,90" fill="#1D3558" stroke="#67E8F9" stroke-opacity=".8"/>
+<polygon points="0,45 82,90 82,180 0,135" fill="#10233F" stroke="#67E8F9" stroke-opacity=".5"/>
+<polygon points="82,90 164,45 164,135 82,180" fill="#0B1930" stroke="#67E8F9" stroke-opacity=".5"/>
+<ellipse cx="82" cy="39" rx="36" ry="15" fill="#0EA5E9" opacity=".9"/><path d="M46 39v36c0 20 72 20 72 0V39" fill="#0284C7" stroke="#7DD3FC" stroke-width="2"/><ellipse cx="82" cy="75" rx="36" ry="15" fill="#0369A1" stroke="#7DD3FC" stroke-width="2"/><ellipse cx="82" cy="39" rx="36" ry="15" fill="#38BDF8" stroke="#BAE6FD" stroke-width="2"/>
+<text x="82" y="212" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" font-weight="700">SOURCE</text><text x="82" y="237" text-anchor="middle" fill="#9FB4D9" font-family="Arial,sans-serif" font-size="14">CSV / Raw Data</text>
+</g>
+<!-- Processing block -->
+<g transform="translate(315 235)">
+<polygon points="0,45 82,0 164,45 82,90" fill="url(#top1)" stroke="#C4B5FD" stroke-width="1.5"/>
+<polygon points="0,45 82,90 82,180 0,135" fill="#35216E" stroke="#8B5CF6"/>
+<polygon points="82,90 164,45 164,135 82,180" fill="#20164B" stroke="#8B5CF6"/>
+<g fill="none" stroke="#EDE9FE" stroke-width="3"><path d="M54 35l20-12 20 12-20 12z"/><path d="M54 47l20 12 20-12"/><path d="M54 59l20 12 20-12"/></g>
+<text x="82" y="212" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" font-weight="700">PROCESS</text><text x="82" y="237" text-anchor="middle" fill="#C4B5FD" font-family="Arial,sans-serif" font-size="14">Databricks · PySpark</text>
+</g>
+<!-- Warehouse block -->
+<g transform="translate(565 235)">
+<polygon points="0,45 82,0 164,45 82,90" fill="url(#top2)" stroke="#A5F3FC" stroke-width="1.5"/>
+<polygon points="0,45 82,90 82,180 0,135" fill="#12416A" stroke="#38BDF8"/>
+<polygon points="82,90 164,45 164,135 82,180" fill="#0B294A" stroke="#38BDF8"/>
+<g fill="none" stroke="#E0F2FE" stroke-width="2"><path d="M47 33h70M47 45h70M47 57h70"/><path d="M57 26v40M72 26v40M87 26v40M102 26v40"/></g>
+<text x="82" y="212" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" font-weight="700">MODEL</text><text x="82" y="237" text-anchor="middle" fill="#A5F3FC" font-family="Arial,sans-serif" font-size="14">Delta Lake · Facts</text>
+</g>
+<!-- Serving block -->
+<g transform="translate(815 235)">
+<polygon points="0,45 82,0 164,45 82,90" fill="url(#top3)" stroke="#FBCFE8" stroke-width="1.5"/>
+<polygon points="0,45 82,90 82,180 0,135" fill="#5B205D" stroke="#F472B6"/>
+<polygon points="82,90 164,45 164,135 82,180" fill="#341644" stroke="#F472B6"/>
+<g fill="none" stroke="#FCE7F3" stroke-width="3"><path d="M47 28h70v43H47z"/><path d="M47 40h70M60 28v43M83 28v43M105 28v43"/></g>
+<text x="82" y="212" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" font-weight="700">SERVE</text><text x="82" y="237" text-anchor="middle" fill="#F9A8D4" font-family="Arial,sans-serif" font-size="14">Data Marts · REST API</text>
+</g>
+<!-- Output cards -->
+<g transform="translate(350 500)">
+<rect x="0" y="12" width="230" height="105" rx="12" fill="#071126" stroke="#38BDF8" stroke-opacity=".8" stroke-width="2"/>
+<rect x="0" y="0" width="230" height="105" rx="12" fill="#111F3B" stroke="#38BDF8" stroke-width="1.5"/>
+<text x="20" y="29" fill="#7DD3FC" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">01 / VISUALIZE</text><text x="20" y="55" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="19" font-weight="700">Power BI</text>
+<path d="M25 85V72h12v13M45 85V60h12v25M65 85V48h12v37M85 85V66h12v19" fill="#38BDF8" opacity=".9"/>
+<path d="M120 80l20-15 19 6 26-25" fill="none" stroke="#A78BFA" stroke-width="3"/><circle cx="185" cy="46" r="4" fill="#A78BFA"/>
+</g>
+<g transform="translate(620 500)">
+<rect x="0" y="12" width="230" height="105" rx="12" fill="#071126" stroke="#F472B6" stroke-opacity=".8" stroke-width="2"/>
+<rect x="0" y="0" width="230" height="105" rx="12" fill="#20142F" stroke="#F472B6" stroke-width="1.5"/>
+<text x="20" y="29" fill="#F9A8D4" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">02 / GENERATE</text><text x="20" y="55" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="19" font-weight="700">AI Portfolio Reports</text>
+<path d="M22 72h180M22 82h145M22 92h160" stroke="#F9A8D4" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+</g>
+<text x="60" y="655" fill="#8FA4C9" font-family="Arial,sans-serif" font-size="14">DATA ENGINEERING  •  FINANCIAL ANALYTICS  •  AI-ASSISTED REPORTING</text>
+<text x="1135" y="655" text-anchor="end" fill="#C4B5FD" font-family="Arial,sans-serif" font-size="14">BUILT BY SARISH ADEEL</text>
+</svg>
